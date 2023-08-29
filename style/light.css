@@ -1,3 +1,10 @@
-body {
-    background-color: snow;
-  }
+a {color: black;}
+h1 {color: black;}
+h2 {color: black;}
+h3 {color: black;}
+
+body {background-color: snow}
+
+#Header {
+  background-image: url("../img/bg-dark.png");
+}
