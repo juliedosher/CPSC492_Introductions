@@ -1,1 +1,0 @@
-# CPSC492: Introductions
