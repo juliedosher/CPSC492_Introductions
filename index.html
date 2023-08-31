@@ -19,9 +19,6 @@
         
         <link rel="stylesheet" href="./style/main.css" type="text/css"> 
         <link rel="stylesheet" href="./style/dark.css" type="text/css" id="style-mode">
-        <script src="./script/main.js"></script>
-
-        
   </head>
 
   <body>
@@ -30,22 +27,23 @@
       <h1>Julie Dosher</h1>  
       <h3>Email: <a href="mailto: juliegjdosher@lewisu.edu">juliegdosher@lewisu.edu</a></h3>
       <h3>Discord: <a href="https://discordapp.com/users/510540061813506049">jdosh.</a></h3>
+      <div id="buffer"></div>
    
       <!-- Upper Navbar -->
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-fixed-top" id="nav">
+      <nav class="navbar navbar-expand-sm navbar-custom navbar-dark navbar-fixed-top" id="nav">
         <div class="container-fluid">
             <ul class="navbar-nav">
-              <button type="button" onclick="toggleLightMode()" title="Toggle Light Mode">
-                <img id="modeImage" src="./img/sun.png" alt="mode">
+              <button type="button" id="btnLight" title="Toggle Light Mode">
+                <img id="imgMode" src="./img/sun.png" alt="mode">
               </button>
               <li class="nav-item">
-                <a class="nav-link active" href="#Info">Basic Info</a>
+                <a class="nav-link active" id="aAbout">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./cpsc492.html">CPSC 492</a>
+                <a class="nav-link" id="aClass">CPSC 492</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./">More About Me</a>
+                <a class="nav-link" id="aContact">Contact</a>
               </li>
             </ul>
         </div>
@@ -54,7 +52,11 @@
     
     <br>
 
+    <section id="MainBody">
+
+    </section>
 
 
   </body>
+  <script src="./script/main.js"></script>
 </html>

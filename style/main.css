@@ -23,10 +23,6 @@ a {
     text-align: center;
   }
 
-  body {
-    
-  }
-
   p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14pt;
@@ -35,6 +31,7 @@ a {
   }
 
   .nav-item {
+    cursor: pointer;
     font-family: 'Source Sans Pro', sans-serif; 
     font-size: 14pt;
     font-weight: 400;
@@ -42,7 +39,7 @@ a {
   }
 
   #Header {
-    min-height: 35vh;
+    min-height: 33vh;
   }
 
   #Header button {
@@ -53,4 +50,12 @@ a {
   #Header img {
     height: 30px;
     width: 30px;
+  }
+
+  #buffer {
+    min-height: 20px;
+  }
+
+  #MainBody {
+    min-height: 100vh;
   }
