@@ -1,4 +1,4 @@
-// Document Element IDs
+// Document Elements
 
 const aAbout = document.getElementById("aAbout");
 const aClass = document.getElementById("aClass");
