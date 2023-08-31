@@ -28,6 +28,7 @@ a {
     font-size: 18pt;
     font-weight: 400;
     margin-left: 75px;
+    margin-right: 75px;
   }
 
   .nav-item {
@@ -60,23 +61,44 @@ a {
     min-height: 100vh;
   }
 
+  #textImgRow {
+    display: inline-block;
+  }
+
+  #text-left {
+    float: left;
+    width: 70vw;
+  }
+
+  #text-left p {
+    margin-right: 0;
+  }
+
+  #img-right {
+    float: right;
+    text-align: right;
+    width: 25vw;
+  }
+
   #bodyContact h2 {
     font-size: 28pt;
     margin-left: 0px;
     text-align: center;
   }
 
-  #imgRow {
-    border:2px solid pink;
-    display: inline-block;
-    margin: 0 auto;
+  #centeredRow {
+    margin: auto;
     text-align: center;
   }
 
+  #imgRow {
+    display: inline-block;
+  }
+
   #imgRow img {
-    height: 180px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
     text-align: center;
-    width: 180px;
+    height: 170px;
+    width: 170px;
   }

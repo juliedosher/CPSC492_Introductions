@@ -4,7 +4,9 @@ const aAbout = document.getElementById("aAbout");
 const aClass = document.getElementById("aClass");
 const aContact = document.getElementById("aContact");
 
+const imgGithub = document.getElementById("imgGithub");
 const imgLightMode = document.getElementById("imgLightMode");
+
 const styleMode = document.getElementById('style-mode');
 
 const nav = document.getElementById("nav");
@@ -57,16 +59,18 @@ document.addEventListener("keyup", function(event) {
 });
 
 function toggleLightMode() {
-    if (isDark) {
+    if (isDark) {               // switch to light mode
         styleMode.setAttribute('href', './style/light.css');
         nav.className = "navbar navbar-expand-sm navbar-custom navbar-light navbar-fixed-top";
         imgLightMode.src = './img/moon.png';
+        imgGithub.src = './img/github-lightMode.png';
         isDark = false;
    
-    } else {
+    } else {                    // switch to dark mode
         styleMode.setAttribute('href', './style/dark.css');
         nav.className = "navbar navbar-expand-sm navbar-custom navbar-dark navbar-fixed-top";
         imgLightMode.src = './img/sun.png';
+        imgGithub.src = './img/github-darkMode.png';
         isDark = true;
     }
 }
