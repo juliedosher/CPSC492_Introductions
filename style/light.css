@@ -9,6 +9,14 @@ body {background-color: white}
   background-image: url("../img/bg-light.png");
 }
 
+#Header a:hover {
+  color: indigo;
+}
+
+#nav a:hover {
+  color: black;
+}
+
 .navbar-custom {
   background-color: #dfdfdf;
   color: black;

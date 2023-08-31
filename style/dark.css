@@ -9,6 +9,10 @@ body {background-color: black}
     background-image: url("../img/bg-dark.png");
 }
 
+#nav a:hover {
+    color: white;
+  }
+
 .navbar-custom {
     background-color: #444444;
     color: white;
