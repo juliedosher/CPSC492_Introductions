@@ -25,9 +25,9 @@ a {
 
   p {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 14pt;
+    font-size: 18pt;
     font-weight: 400;
-    margin-left: 50px;
+    margin-left: 75px;
   }
 
   .nav-item {
@@ -61,6 +61,22 @@ a {
   }
 
   #bodyContact h2 {
+    font-size: 28pt;
     margin-left: 0px;
     text-align: center;
+  }
+
+  #imgRow {
+    border:2px solid pink;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #imgRow img {
+    height: 180px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    width: 180px;
   }
