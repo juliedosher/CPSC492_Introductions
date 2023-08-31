@@ -19,3 +19,6 @@ body {background-color: black}
     color: white;
 }
 
+#img-right img {
+    border: 6px solid #444444;
+}

@@ -57,7 +57,7 @@ a {
     min-height: 20px;
   }
 
-  #MainBody {
+  #bodyAbout {
     min-height: 100vh;
   }
 
@@ -67,7 +67,7 @@ a {
 
   #text-left {
     float: left;
-    width: 70vw;
+    width: 65vw;
   }
 
   #text-left p {
@@ -76,8 +76,13 @@ a {
 
   #img-right {
     float: right;
-    text-align: right;
-    width: 25vw;
+    text-align: center;
+    width: 30vw;
+  }
+
+  #img-right img {
+    border-radius: 15%;
+    width: 28vw;
   }
 
   #bodyContact h2 {
