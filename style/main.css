@@ -79,7 +79,7 @@ a {
 
   #text-left {
     float: left;
-    width: 65vw;
+    width: 60vw;
   }
 
   #text-left p {
@@ -88,13 +88,13 @@ a {
 
   #img-right {
     float: right;
-    text-align: center;
+    text-align: right;
     width: 35vw;
   }
 
   #img-right img {
     border-radius: 15%;
-    width: 28vw;
+    width: 27vw;
   }
 
   #bodyContact h2 {
